@@ -197,3 +197,19 @@ All tests validate streak calculations for daily and weekly habits.
 
 Kiran Ravada  
 IU Internationale Hochschule
+
+
+## Running Tests
+
+The project includes a comprehensive suite of unit tests covering:
+
+- Habit creation and deletion
+- Completion tracking
+- Longest streak per habit
+- Overall longest streak
+- CLI-based workflow validation
+
+To run tests:
+
+```bash
+pytest -q
